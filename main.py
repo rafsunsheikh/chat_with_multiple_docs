@@ -16,7 +16,7 @@ from langchain.chains import RetrievalQA
 import os 
 import requests
 
-huggingface_api_key = "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"
+huggingface_api_key = st.secrets["HUGGINGFACEHUB_API_KEY"]
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = huggingface_api_key
 
 def get_pdf_text(pdf_docs): # Understood & No modification reqr

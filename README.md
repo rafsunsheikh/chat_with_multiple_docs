@@ -26,7 +26,7 @@ To set up and run this project, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/pdf-chatbot-web-app.git
+git clone https://github.com/rafsunsheikh/chat_with_multiple_docs.git
 cd pdf-chatbot-web-app
 ```
 
